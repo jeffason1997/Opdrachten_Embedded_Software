@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Week1">
+      <UniqueIdentifier>{09fa7387-72f6-466a-a2ae-68d0364e2b06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -26,11 +29,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Opdrachten_Embedded_Software.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.c">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Les1.c">
+      <Filter>Source Files\Week1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
